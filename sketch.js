@@ -17,6 +17,17 @@ function draw() {
 
 
   // TODO: translate or scale?
+    //
+  for (var h = 0; h < 24; h++){
+    noFill();
+    var g_val = map(h,0,23,0,255);
+    stroke(66,g_val,244, 20);
+    strokeWeight(3);
+    hr_diam = (h+3)*20
+
+    //hour_diam = map(h,0,23, 20, 560);
+    ellipse(300,300, hr_diam);
+  }
 
   hour_diam=0;
   for (var h = 0; h < H; h++){
