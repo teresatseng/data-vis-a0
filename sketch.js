@@ -36,17 +36,14 @@ function draw() {
     stroke(66,g_val,244);
     strokeWeight(3);
     hour_diam = (h+3)*20
-
-    //hour_diam = map(h,0,23, 20, 560);
     ellipse(300,300, hour_diam);
   }
 
   push();
   stroke(12,19,51);
   strokeWeight(3);
-  line(300-(hour_diam/2),300,300+(hour_diam/2),300);
+  line(0,300,600,300);
   pop();
-
 
   push();
 
