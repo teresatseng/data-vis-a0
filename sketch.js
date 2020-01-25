@@ -21,7 +21,7 @@ function draw() {
   for (var h = 0; h < 24; h++){
     noFill();
     var g_val = map(h,0,23,0,255);
-    stroke(66,g_val,244, 20);
+    stroke(66,g_val,244, 10);
     strokeWeight(3);
     hr_diam = (h+3)*20
 
